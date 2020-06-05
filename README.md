@@ -19,8 +19,8 @@ If you are not already familiar with git and GitHub, Brown has access to several
 
 Here are 2 to get you started:
 
-[Learning GitHub](https://www.linkedin.com/learning/learning-github/version-control-and-collaboration-with-github) - 2hrs 11min: Includes bare basics of using git.
-[GitHub Essential Training](https://www.linkedin.com/learning/github-essential-training) - 2hrs 48min: Covers CI concepts and more advanced git usage.
+* [Learning GitHub](https://www.linkedin.com/learning/learning-github/version-control-and-collaboration-with-github) - 2hrs 11min: Includes bare basics of using git.  
+* [GitHub Essential Training](https://www.linkedin.com/learning/github-essential-training) - 2hrs 48min: Covers CI concepts and more advanced git usage.
 
 ## License
 
