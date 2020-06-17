@@ -7,7 +7,7 @@ This repo is to provide new users with some documentation to help them get famil
 
 ## GitHub Account
 
-If you **don't** already have a GitHub account, you can join using this [Brown Join](https://github.com/orgs/BrownUniversity/sso/sign_up) link
+If you **don't** already have a GitHub account, you can join using this link: [GitHub Join](https://github.com/join)
 
 GitHub's accounts are globally unique to GitHub. Your **Brown ShortID** may **not** be available on GitHub. This is **OK**. Since you will be authenticating via Brown's Shibboleth what name you have on GitHub won't really matter. Your Shibboleth login authenticate you.
 
