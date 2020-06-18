@@ -22,6 +22,25 @@ Here are 2 to get you started:
 * [Learning GitHub](https://www.linkedin.com/learning/learning-github/version-control-and-collaboration-with-github) - 2hrs 11min: Includes bare basics of using git.  
 * [GitHub Essential Training](https://www.linkedin.com/learning/github-essential-training) - 2hrs 48min: Covers CI concepts and more advanced git usage.
 
+## Understanding Visibility
+
+GitHub is built on an Open Source philosophy where repositories are meant to be **open to public view** unless specified otherwise. This is important to understand when using GitHub.com's services. Brown *strongly* recommends using private repositories until you and your team are comfortable enough with software development practices that you will not be exposing any sensitive information. Sensitive information in this context could include (but not limited to):
+
+- Passwords
+- Encryption keys
+- Access keys
+- Service account credentials
+- Proprietary software (not open source)
+- User data
+
+### Types of repositories
+
+* **Public** - Visible to the world to view, even without Brown credentials
+* **Internal** - Visible to anyone with Brown credentials and GitHub access (needs both)
+* **Private** - Hidden to all unless explicitly allowed (teams and individuals)
+
+Visibility does not mean writable. Write access to a repo is managed in each repo's settings by the owner, usually the person who created it. That person would be able to invite users or teams and determine what level of access they would have.
+
 ## License
 
 GitHub is built on providing tools for Open Source projects. To this end it provides Open Source compatible licenses to new repositories. As a Brown employee or faculty member these may not be appropriate for the code you are developing. 
