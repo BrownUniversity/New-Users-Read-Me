@@ -9,7 +9,7 @@ This repo is to provide new users with some documentation to help them get famil
 
 If you **don't** already have a GitHub account, you can join using this link: [GitHub Join](https://github.com/join)
 
-GitHub's accounts are globally unique to GitHub. Your **Brown ShortID** may **not** be available on GitHub. This is **OK**. Since you will be authenticating via Brown's Shibboleth what name you have on GitHub won't really matter. Your Shibboleth login authenticate you.
+GitHub's accounts are globally unique to GitHub. Your **Brown ShortID** may **not** be available on GitHub. This is **OK**. Since you will be authenticating via Brown's Shibboleth what name you have on GitHub won't really matter. Your Shibboleth login authenticates you.
 
 You may already have a GitHub account for personal or non-Brown related code work. You may use this for Brown's GitHub access as well. Brown does **not** have any special access to other projects on GitHub. 
 
