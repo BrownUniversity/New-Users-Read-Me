@@ -8,7 +8,7 @@ This repo is to provide new users with some documentation to help them get famil
 
 ## GitHub Account
 
-GitHub's accounts are global, and unique to GitHub. Your **Brown ShortID** may **not** be available on GitHub, and this is **OK**; You will add your GitHub account to Brown-related 'organizations', 'teams', and 'projects' in later steps. Your GitHub account can be used for your own projects or with other organizations and projects across the entire site, it belongs to **you**. Most developers prefer to maintain a single GitHub account and associate it with organizations and projects, as opposed to creating one for each organization. Brown's Shibboleth is used to access Brown-related resources hosted on the site; this will **not** give Brown any special access to other projects on GitHub that you might create or participate in.
+GitHub's accounts are global, and unique to GitHub. Your **Brown ShortID** may **not** be available on GitHub, and this is **OK**; You will add your GitHub account to Brown-related 'organizations', 'teams', and 'projects' in later steps. Your GitHub account can be used for your own projects or with other organizations and projects across the entire site, it belongs to **you**. Most developers prefer to maintain a single GitHub account and associate it with organizations and projects, as opposed to creating one for each organization. The GitHub service will **not** give Brown any special access to other projects on GitHub that you might create or participate in.
 
 If you **don't** already have a GitHub account, you can create one using using this link: [GitHub Join](https://github.com/join).
 
@@ -16,13 +16,16 @@ Please enable two-factor authentication for your account using an authenticator 
 
 ## Membership to the 'BrownUniversity' organization within GitHub
 
-Once you have an account, you will be able to create your own repositories and work with other public ones on the site. To participate in Brown-related projects, you will need to associate your GitHub account with one or more Brown organizations. The main organization for Brown is [BrownUniversity](https://github.com/BrownUniversity), and you can join it by following [this link](https://github.com/orgs/BrownUniversity/sso/sign_up). Other organizations (CIS, CCV, Libraries, etc.) may have other methods to join.
 
-## Accessing Single Sign On protected resources within GitHub from the command line (or other tools that don't have a Shibboleth interface)
+Once you have an account, you can be invited to join the BrownUniversity Org via CAP (Computing Accounts and Passwords) requests. This will ensure only authorized users will be given access.
+
+Other organizations (CIS, CCV, Libraries, etc.) may have other methods to join.
+
+## Accessing 2FA protected resources within GitHub from the command line (or other tools that)
 
 GitHub provides a [desktop client](https://desktop.github.com/) for macOS and Windows, but most developers prefer to use the command line or other clients. Many IDEs and [developer-oriented text editors](https://atom.io/) can make use of GitHub integration. To integrate your desktop experience with GitHub outside of the official apps, there are additional steps required to create a 'key' that you can authorize connections with.
 
-Please follow the steps in [this document](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) to generate a private key (this must NOT be shared or stored in a location where it is at risk of being compromised) and authorize it for use with GitHub. This procedure creates a trust relationship between applications within your desktop environment, Shibboleth, and GitHub.
+Please follow the steps in [this document](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) to generate a private key (this must NOT be shared or stored in a location where it is at risk of being compromised) and authorize it for use with GitHub. This creates a trust relationship between applications within your desktop environment and GitHub.
 
 You can use the same SSH key pair for other services besides GitHub, but that is out-of-scope for this document. To read more on the subject, please start [here](https://www.ssh.com/ssh/public-key-authentication).
 
@@ -50,7 +53,7 @@ GitHub is built on an Open Source philosophy where repositories are meant to be 
 ### Types of repositories
 
 * **Public** - Visible to the world to view, even without Brown credentials
-* **Internal** - Visible to anyone with Brown credentials and GitHub access (needs both)
+* **Internal** - Visible to anyone within the Brown Org and GitHub access (needs both)
 * **Private** - Hidden to all unless explicitly allowed (teams and individuals)
 
 Visibility does not mean writable. Write access to a repo is managed in each repo's settings by the owner, usually the person who created it. That person would be able to invite users or teams and determine what level of access they would have.
