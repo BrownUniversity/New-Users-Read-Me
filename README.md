@@ -25,7 +25,8 @@ Other organizations (CIS, CCV, Libraries, etc.) may have other methods to join.
 
 GitHub provides a [desktop client](https://desktop.github.com/) for macOS and Windows, but most developers prefer to use the command line or other clients. Many IDEs and [developer-oriented text editors](https://atom.io/) can make use of GitHub integration. To integrate your desktop experience with GitHub outside of the official apps, there are additional steps required to create a 'key' that you can authorize connections with.
 
-Please follow the steps in [this document](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) to generate a private key (this must NOT be shared or stored in a location where it is at risk of being compromised) and authorize it for use with GitHub. This creates a trust relationship between applications within your desktop environment and GitHub.
+### GitHub and SSH
+Please follow the steps in [this document](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) to generate a private key (this must NOT be shared or stored in a location where it is at risk of being compromised) and authorize it for use with GitHub. This procedure creates a trust relationship between applications within your desktop environment, Shibboleth, and GitHub.
 
 You can use the same SSH key pair for other services besides GitHub, but that is out-of-scope for this document. To read more on the subject, please start [here](https://www.ssh.com/ssh/public-key-authentication).
 
