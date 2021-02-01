@@ -14,6 +14,13 @@ If you **don't** already have a GitHub account, you can create one using using t
 
 Please enable two-factor authentication for your account using an authenticator app or SMS messaging. This will help protect your entire GitHub account from unauthorized access.
 
+## Requesting Access
+
+Access requests are processed via the CAP "Access Request" process. Below are the links to the KB article for CIS GitHub requests and Access Request form:
+
+* [Requesting access to Brown CIS GitHub org](https://ithelp.brown.edu/kb/articles/requesting-access-to-brown-cis-github-org)
+* [Access Request](https://ithelp.brown.edu/new-ticket)
+
 ## Membership to the 'BrownUniversity' organization within GitHub
 
 
